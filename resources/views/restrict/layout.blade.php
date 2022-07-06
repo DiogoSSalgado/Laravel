@@ -12,12 +12,17 @@
 <body>
     <header>
         <picture>
-            <img src="{{asset('img\logo.svg')}}" alt="Logo" />
+            <a href="{{url('/mensagem')}}"> 
+                <img src="{{asset('img\logo.png')}}" alt="Logo" /> 
+            </a>
         </picture>
         <nav>
             <ul>
                 <li>
                     <a href="{{url('/mensagem')}}">Mensagens</a>
+                </li>
+                <li>
+                    <a href="{{url('/topico')}}">Tópicos</a>
                 </li>
                 <li>
                     <a href="{{url('dashboard')}}"> Usuários</a>

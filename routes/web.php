@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\MensagemControler;
+use App\Http\Controllers\MensagemController;
 use App\Http\Controllers\TopicoController;
 use Illuminate\Support\Facades\Route;
 

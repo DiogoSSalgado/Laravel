@@ -111,7 +111,7 @@ class MensagemController extends Controller
             $path = Storage::disk('s3')->url($name);
             $mensagem->imagem = $path; 
             $mensagem->save();
-            $mensagem->topicos()->attach($request->get('topico'));
+            $mensagem->topicos()->sync($request->get('topico'));
             return redirect('mensagem');
         }
     }

@@ -4,14 +4,14 @@ namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
 use App\Models\Mensagem;
-use App\Trais\ApiReponse;
+use App\Traits\ApiResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
 
 class MensagemController extends Controller
 {
-    use ApiReponse;
+    use ApiResponse;
     /**
      * Display a listing of the resource.
      *

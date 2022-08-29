@@ -22,9 +22,6 @@
                     <a href="{{url('/mensagem')}}">Mensagens</a>
                 </li>
                 <li>
-                    <a href="{{url('/topico')}}">Tópicos</a>
-                </li>
-                <li>
                     <a href="{{url('dashboard')}}"> Usuários</a>
                 </li>
             </ul>
